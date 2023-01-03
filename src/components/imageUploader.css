@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin: 5px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+
+.text {
+  font-size: 32px;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+
